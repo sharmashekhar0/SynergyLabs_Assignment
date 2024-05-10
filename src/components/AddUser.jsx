@@ -39,7 +39,7 @@ function AddUser({ closeAddUserModal, addUserHandler }) {
 					</label>
 					<input
 						type="text"
-						{...register("Email", { required: true })}
+						{...register("email", { required: true })}
 						className="w-full lg:w-2/3 h-10 lg:h-10 border border-blue-900 outline-none px-4 rounded-md"
 					/>
 				</div>
